@@ -1,8 +1,8 @@
 def get_matrix(n, m, value):
     matrix = []
-    for a in range(0, n):
+    for i in range(n):
         mat1 = []
-        for b in range(0, m):
+        for j in range(m):
             mat1.append(value)
         matrix.append(mat1)
     return matrix
