@@ -10,4 +10,4 @@ for i in range(1, number):
             password.append(j)
         else:
             continue
-print(*password)
+print('Пароль: ', *password)
